@@ -1,0 +1,14 @@
+---
+
+  spring:
+    datasource:
+      url: none
+      username: none
+      password: none
+
+
+
+    jpa:
+      hibernate:
+        ddl-auto: update
+
