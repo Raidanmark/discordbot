@@ -16,11 +16,23 @@ public class BotListener extends ListenerAdapter {
         String chatId = event.getChannel().getId();
         String message = event.getMessage().getContentRaw();
 
+        if (isCommand(message)) {
+
+        }
+
+
+
     }
 
 
     private boolean shouldIgnore(MessageReceivedEvent event) {
-
         return event.getAuthor().isBot();
     }
+
+    private boolean isCommand(String commandText) {
+
+        return commandText.startsWith("!");
+    }
+
+
 }

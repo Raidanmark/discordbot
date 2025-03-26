@@ -44,6 +44,7 @@ dependencies {
 dependencies {
     implementation("io.github.cdimascio:dotenv-java:3.0.0")
     implementation("net.dv8tion:JDA:5.3.0")
+    implementation("net.dv8tion:JDA-Commander:3.0.0")
 }
 
 
