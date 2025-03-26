@@ -1,7 +1,7 @@
-package org.example.factories;
+package org.example.services.factories;
 
-import org.example.dto.ChatBotSessionDto;
-import org.example.store.entities.ChatBotSessionEntity;
+import org.example.services.dto.ChatBotSessionDto;
+import org.example.model.entities.ChatBotSessionEntity;
 import org.springframework.stereotype.Component;
 
 @Component

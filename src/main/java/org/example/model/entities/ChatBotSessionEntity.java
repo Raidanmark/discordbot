@@ -1,8 +1,7 @@
-package org.example.store.entities;
+package org.example.model.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
-import net.dv8tion.jda.api.entities.channel.middleman.MessageChannel;
 
 
 @Setter

@@ -1,4 +1,4 @@
-package org.example.dto;
+package org.example.services.dto;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;

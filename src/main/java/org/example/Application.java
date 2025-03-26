@@ -1,10 +1,9 @@
 package org.example;
 
 import net.dv8tion.jda.api.JDA;
-import org.example.store.listeners.BotListener;
-import org.example.factories.JdaFactory;
+import org.example.model.listeners.BotListener;
+import org.example.services.factories.JdaFactory;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(exclude = {org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration.class})
