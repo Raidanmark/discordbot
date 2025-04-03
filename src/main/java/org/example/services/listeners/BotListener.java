@@ -1,4 +1,4 @@
-package org.example.model.listeners;
+package org.example.services.listeners;
 
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
@@ -18,6 +18,7 @@ public class BotListener extends ListenerAdapter {
 
         if (isCommand(message)) {
 
+            //Call REST request (String chatId, String source [this will be from client], String message)
         }
 
 
